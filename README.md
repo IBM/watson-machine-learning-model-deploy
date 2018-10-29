@@ -111,7 +111,6 @@ $ cd prediction-using-watson-machine-learning
 
 * Click `Next` to create a table with the uploaded data.
 
-
 ### 5. Create a notebook in IBM Watson Studio
 
 * In [Watson Studio](https://dataplatform.ibm.com) using the project you've created, click on `+ Add to project` -> `Notebook` OR in the `Assets` tab under `Notebooks` choose `+ New notebook` to create a notebook.

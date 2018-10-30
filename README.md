@@ -83,23 +83,33 @@ $ cd prediction-using-watson-machine-learning
 
 * Create a [Db2 Warehouse on Cloud Service](https://console.bluemix.net/catalog/services/db2-warehouse-on-cloud/) instance (an entry plan is offered).
 
+* Get the authentication information for DB2, which can be found under the `Service Credentials` tab of the Db2 Warehouse on Cloud service instance created in IBM Cloud. Click `New credential` to create credentials if you do not have any.
+
 * Create the `DRUG_TRAIN_DATA_UPDATED` table in Db2 Warehouse on Cloud. You will use the [drug_train_data_updated.csv](data/drug_train_data_updated.csv) file from this git repository.
 
 * Click the `Open` icon to open the console.
 
-* Select the `Load Data` and `Desktop` load type.
+![](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2CloudOpenConsole.png)
 
-* Drag and drop the `data/drug_train_data_updated.csv` file and press `Next`.
+* Use the `username` and `password` from the `service credentials` to log in.
 
-* Select `Schema` to import data and click `New Table`.
+* Click the `Load Data` icon.
 
-* Write the name `DRUGTRAINDATA` for the new table than click `Next` to finish data import.
+![](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2CloudLoadData.png)
+
+* Drag and drop or browse to the `data/drug_train_data_updated.csv` file and press `Next`.
+
+* Under `Select a load target` -> `Schema` pick the `username` for your credentials and click it.
+
+* Under `Table` click `New Table`.
+
+* Write the name `DRUGTRAINDATA` in `Create a new Table` -> `New Table Name` and click `Create`. Click `Next` to finish data import.
 
 * Use `;` as field separator.
 
-* Click `Next` to create a table with the uploaded data.
+![](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2ChooseSemicolonSeparator.png)
 
-* Get the authentication information for DB2, which can be found under the `Service Credentials` tab of the Db2 Warehouse on Cloud service instance created in IBM Cloud. Click `New credential` to create credentials if you do not have any.
+* Click `Next` to create a table with the uploaded data.
 
 ### 5. Create a notebook in IBM Watson Studio
 

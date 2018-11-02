@@ -23,13 +23,13 @@ Use machine learning with anonymous patient data to predict the best drug to tre
 
 > **DISCLAIMER**: This notebook is used for demonstrative and illustrative purposes only and does not constitute an offering that has gone through regulatory review. It is not intended to serve as a medical application. There is no representation as to the accuracy of the output of this application and it is presented without warranty.
 
-In this Code Pattern, we will use anonymous patient data to predict the best drug to treat heart disease. This notebook introduces commands for getting data, model persistance to Watson Machine Learning repository, model deployment, and scoring.
+In this Code Pattern, we will use anonymous patient data to predict the best drug to treat heart disease. This notebook introduces commands for getting data, building the model, model deployment, and scoring.
 
 When the reader has completed this Code Pattern, they will understand how to:
 
 * Prepare data, create an Apache Spark machine learning pipeline, and train a model.
 * Publish a sample model in the Watson Machine Learning (WML) repository.
-* Deploy a model for online scoring.
+* Deploy a model for online scoring (as a web service).
 * Score the model using sample scoring records and the scoring endpoint.
 
 # Technologies
@@ -76,7 +76,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 # Runtimes
 
-* Apache Spark
+* Apache Spark 2.1
 * python 3.5
 
 # Related IBM Developer content
@@ -94,6 +94,13 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [title](url): description
 
 # Announcement
-> Every pattern must have an announcement post that introduces it. The announcement should explain why the pattern is important or useful. The announcement is an invitation to try the pattern; you can expand on why you created the pattern, discuss any challenges that you overcame, or expand on the technologies that you're using.
+Using machine learning in an application can produce impressive results, but moving from model training stage to production application is a lot of work. While frameworks like Apache Spark MLlib, Scikit-learn, Xgboost help to reduce model building workload, the IBM Watson Machine Learning is a solution that can productionalize those models in minutes. By taking advantage of Watson Machine Learning web service deployment of models, developers can easily start building their application with powerfull REST API.
 
-> *Announcements should be at least 2-3 paragraphs*
+In this code pattern, we use the machine learning classification algorithm to solve a requirement from biomedical company that produces heart drugs. The company has collected data about a set of patients, all of whom suffered from the same illness. During their course of treatment, each patient responded to one of five medications. Based on treatment records they would like to predict the best drug for the patient. 
+The pattern shows exact steps how that data and Spark MLlib package are used to train a model that predicts the best drug.
+
+
+Next, the trained model is published to Watson Machine Learning repository on CLoud and finally deployed as a web-service.
+Using web-service details such as: scoring endpoint and credentials the model is being scored i.e.: new patient's records is being send in a request and drug recommendation is returned in response.
+
+Try it out and let me know what you think!

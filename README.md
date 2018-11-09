@@ -1,8 +1,6 @@
-#Work In Progress. Please re-visit soon for the completed code pattern.
-
 > **DISCLAIMER**: This notebook is used for demonstrative and illustrative purposes only and does not constitute an offering that has gone through regulatory review. It is not intended to serve as a medical application. There is no representation as to the accuracy of the output of this application and it is presented without warranty.
 
-# Prediction Using Watson Machine Learning
+# Watson Machine Learning Model Deploy
 
 In this Code Pattern, we will use anonymous patient data to predict the best drug to treat heart disease. This notebook introduces commands for getting data, model persistance to Watson Machine Learning repository, model deployment, and scoring.
 
@@ -39,8 +37,8 @@ When the reader has completed this Code Pattern, they will understand how to:
 ### 1. Clone the repository
 
 ```
-$ git clone https://github.com/IBM/prediction-using-watson-machine-learning
-$ cd prediction-using-watson-machine-learning
+$ git clone https://github.com/IBM/watson-machine-learning-model-deploy
+$ cd watson-machine-learning-model-deploy
 ```
 
 ### 2. Create Watson services in IBM Cloud
@@ -122,7 +120,7 @@ $ cd prediction-using-watson-machine-learning
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Under `Notebook URL` provide the following url: https://raw.githubusercontent.com/IBM/prediction-using-watson-machine-learning/master/notebooks/MLpredictor.ipynb
+* Under `Notebook URL` provide the following url: https://raw.githubusercontent.com/IBM/watson-machine-learning-model-deploy/master/notebooks/MLpredictor.ipynb
 * Select the Spark runtime with Python 3.5 .
 * Click the `Create` button.
 

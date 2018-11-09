@@ -13,8 +13,13 @@ When the reader has completed this Code Pattern, they will understand how to:
 * Deploy a model for online scoring.
 * Score the model using sample scoring records and the scoring endpoint.
 
+![](doc/source/images/architecture.png)
+
 ## Flow
-TBD
+
+1. User creates a project in Watson Studio using a Jupyter notebook, Python 3.5, and Spark.
+2. User uses DB2 Warehouse in the Cloud to load and read data.
+3. User uses Pyspark to create a pipeline, train a model, and store the model using Watson Machine Learning.
 
 ## Prerequisites
 

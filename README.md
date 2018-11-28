@@ -116,7 +116,7 @@ $ cd prediction-using-watson-machine-learning
 
 ### 5. Create a notebook in IBM Watson Studio
 
-* In [Watson Studio](https://dataplatform.ibm.com) using the project you've created, click on `+ Add to project` -> `Notebook` OR in the `Assets` tab under `Notebooks` choose `+ New notebook` to create a notebook.
+* In [Watson Studio](https://dataplatform.ibm.com) using the project you've created, click on `+ Add to project` and click the  `Notebook` tile.
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.

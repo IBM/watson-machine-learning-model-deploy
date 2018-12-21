@@ -21,7 +21,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 ## Prerequisites
 
-* An [IBM Cloud Account](https://console.bluemix.net).
+* An [IBM Cloud Account](https://cloud.ibm.com).
 
 * An account on [IBM Watson Studio](https://dataplatform.ibm.com).
 
@@ -74,7 +74,7 @@ $ cd prediction-using-watson-machine-learning
 
 ### 3. Save the credentials for your Watson Machine Learning Service
 
-* In a different browser tab go to [http://console.bluemix.net](http://console.bluemix.net) and log in to the Dashboard.
+* In a different browser tab go to [https://cloud.ibm.com](https://cloud.ibm.com) and log in to the Dashboard.
 
 * Click on your Watson Machine Learning instance under `Services`, click on `Service credentials` and then on `View credentials` to see the credentials.
 
@@ -84,7 +84,7 @@ $ cd prediction-using-watson-machine-learning
 
 ### 4. Create the DB2 Warehouse on Cloud Service and load data
 
-* Create a [Db2 Warehouse on Cloud Service](https://console.bluemix.net/catalog/services/db2-warehouse-on-cloud/) instance (an entry plan is offered).
+* Create a [Db2 Warehouse on Cloud Service](https://cloud.ibm.com/catalog/services/db2-warehouse-on-cloud/) instance (an entry plan is offered).
 
 * Get the authentication information for DB2, which can be found under the `Service Credentials` tab of the Db2 Warehouse on Cloud service instance created in IBM Cloud. Click `New credential` to create credentials if you do not have any.
 

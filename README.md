@@ -21,9 +21,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 ## Prerequisites
 
-* An [IBM Cloud Account](https://console.bluemix.net).
+* An [IBM Cloud Account](https://cloud.ibm.com).
 
-* An account on [IBM Watson Studio](https://dataplatform.ibm.com).
+* An account on [IBM Watson Studio](https://dataplatform.cloud.ibm.com/).
 
 # Steps
 
@@ -74,7 +74,7 @@ $ cd prediction-using-watson-machine-learning
 
 ### 3. Save the credentials for your Watson Machine Learning Service
 
-* In a different browser tab go to [http://console.bluemix.net](http://console.bluemix.net) and log in to the Dashboard.
+* In a different browser tab go to [https://cloud.ibm.com/](https://cloud.ibm.com/) and log in to the Dashboard.
 
 * Click on your Watson Machine Learning instance under `Services`, click on `Service credentials` and then on `View credentials` to see the credentials.
 
@@ -84,7 +84,7 @@ $ cd prediction-using-watson-machine-learning
 
 ### 4. Create the DB2 Warehouse on Cloud Service and load data
 
-* Create a [Db2 Warehouse on Cloud Service](https://console.bluemix.net/catalog/services/db2-warehouse-on-cloud/) instance (an entry plan is offered).
+* Create a [Db2 Warehouse on Cloud Service](https://cloud.ibm.com/catalog/services/db2-warehouse/) instance (an entry plan is offered).
 
 * Get the authentication information for DB2, which can be found under the `Service Credentials` tab of the Db2 Warehouse on Cloud service instance created in IBM Cloud. Click `New credential` to create credentials if you do not have any.
 
@@ -116,7 +116,7 @@ $ cd prediction-using-watson-machine-learning
 
 ### 5. Create a notebook in IBM Watson Studio
 
-* In [Watson Studio](https://dataplatform.ibm.com) using the project you've created, click on `+ Add to project` and click the  `Notebook` tile.
+* In [Watson Studio](https://dataplatform.cloud.ibm.com/) using the project you've created, click on `+ Add to project` and click the  `Notebook` tile.
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
@@ -142,6 +142,6 @@ $ cd prediction-using-watson-machine-learning
 ![](doc/source/images/heartMedSampleOut2.png)
 
 # License
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)

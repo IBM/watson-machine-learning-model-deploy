@@ -19,6 +19,10 @@ When the reader has completed this Code Pattern, they will understand how to:
 2. User uses Db2 Warehouse in the Cloud to load and read data.
 3. User uses PySpark to create a pipeline, train a model, and store the model using Watson Machine Learning.
 
+# Watch the Video
+
+[![](https://i.ytimg.com/vi/QeIy60Dfhvk/0.jpg)](https://youtu.be/QeIy60Dfhvk)
+
 ## Prerequisites
 
 * An [IBM Cloud Account](https://cloud.ibm.com).

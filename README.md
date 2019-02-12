@@ -11,7 +11,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 * Deploy a model for online scoring.
 * Score the model using sample scoring records and the scoring endpoint.
 
-![](doc/source/images/architecture.png)
+![architecture](doc/source/images/architecture.png)
 
 ## Flow
 
@@ -21,7 +21,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 # Watch the Video
 
-[![](https://i.ytimg.com/vi/QeIy60Dfhvk/0.jpg)](https://youtu.be/QeIy60Dfhvk)
+[![video](https://i.ytimg.com/vi/QeIy60Dfhvk/0.jpg)](https://youtu.be/QeIy60Dfhvk)
 
 ## Prerequisites
 
@@ -49,22 +49,22 @@ $ cd prediction-using-watson-machine-learning
 
 * Create a new project by clicking `+ New project` and choosing `Data Science`:
 
-![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_choices.png)
+![project choices](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/project_choices.png)
 
 > Note: Services created must be in the same region, and space, as your Watson Studio service.
 > Note: If this is your first project in Watson Studio, an object storage instance will be created.
 
 * Under the `Settings` tab, scroll down to `Associated services`, click `+ Add service` and choose `Watson`:
 
-![](https://github.com/IBM/pattern-images/blob/master/watson-studio/add_service.png)
+![add service](https://github.com/IBM/pattern-images/blob/master/watson-studio/add_service.png)
 
 * Search for `Machine Learning`, Verify this service is being created in the same space as the app in Step 1, and click `Create`.
 
-  ![](https://raw.githubusercontent.com/IBM/pattern-images/master/machine-learning/create-machine-learning.png)
+  ![create machine learning](https://raw.githubusercontent.com/IBM/pattern-images/master/machine-learning/create-machine-learning.png)
 
 * Alternately, you can choose an existing Machine Learning instance and click on `Select`.
 
-  ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/watson-studio-add-existing-ML.png)
+  ![add existing ML](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/watson-studio-add-existing-ML.png)
 
 * The Watson Machine Learning service is now listed as one of your `Associated Services`.
 
@@ -72,9 +72,9 @@ $ cd prediction-using-watson-machine-learning
 
 * Either choose an `Existing` Spark service, or create a `New` one.
 
-  ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_existing_spark_service.png)
+  ![add existing Spark](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_existing_spark_service.png)
 
-  ![](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_new_spark_service.png)
+  ![add new Spark](https://raw.githubusercontent.com/IBM/pattern-images/master/watson-studio/add_new_spark_service.png)
 
 ### 3. Save the credentials for your Watson Machine Learning Service
 
@@ -82,7 +82,7 @@ $ cd prediction-using-watson-machine-learning
 
 * Click on your Watson Machine Learning instance under `Services`, click on `Service credentials` and then on `View credentials` to see the credentials.
 
-  ![](https://raw.githubusercontent.com/IBM/pattern-images/master/machine-learning/ML-service-credentials.png)
+  ![ML credentials](https://raw.githubusercontent.com/IBM/pattern-images/master/machine-learning/ML-service-credentials.png)
 
 * Save the username, password and instance_id to a text file on your machine. You’ll need this information later in your Jupyter notebook.
 
@@ -96,13 +96,13 @@ $ cd prediction-using-watson-machine-learning
 
 * Click the `Open` icon to open the console.
 
-![](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2CloudOpenConsole.png)
+![DB2 Cloud console](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2CloudOpenConsole.png)
 
 * Use the `username` and `password` from the `service credentials` to log in.
 
 * Click the `Load Data` icon.
 
-![](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2CloudLoadData.png)
+![DB2 Cloud load data](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2CloudLoadData.png)
 
 * Drag and drop or browse to the `data/drug_train_data_updated.csv` file and press `Next`.
 
@@ -114,7 +114,7 @@ $ cd prediction-using-watson-machine-learning
 
 * Use `;` as field separator.
 
-![](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2ChooseSemicolonSeparator.png)
+![DB2 chose separator](https://github.com/IBM/pattern-utils/blob/master/db2-cloud/DB2ChooseSemicolonSeparator.png)
 
 * Click `Next` to create a table with the uploaded data.
 
@@ -128,7 +128,7 @@ $ cd prediction-using-watson-machine-learning
 * Select the Spark runtime with Python 3.5 .
 * Click the `Create` button.
 
-  ![](doc/source/images/create-spark-notebook.png)
+  ![create Spark notebook](doc/source/images/create-spark-notebook.png)
 
 ### 6. Run the notebook in IBM Watson Studio
 
@@ -141,9 +141,9 @@ $ cd prediction-using-watson-machine-learning
 
 # Sample Output
 
-![](doc/source/images/heartMedSampleOut1.png)
+![sample output](doc/source/images/heartMedSampleOut1.png)
 
-![](doc/source/images/heartMedSampleOut2.png)
+![sample output](doc/source/images/heartMedSampleOut2.png)
 
 # License
 This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).

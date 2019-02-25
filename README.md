@@ -58,7 +58,7 @@ $ cd prediction-using-watson-machine-learning
 
 ![add service](https://github.com/IBM/pattern-images/blob/master/watson-studio/add_service.png)
 
-* Search for `Machine Learning`, Verify this service is being created in the same space as the app in Step 1, and click `Create`.
+* Search for `Machine Learning`. Verify this service is being created in the same space as the app in Step 1, and click `Create`.
 
   ![create machine learning](https://raw.githubusercontent.com/IBM/pattern-images/master/machine-learning/create-machine-learning.png)
 
@@ -125,7 +125,7 @@ $ cd prediction-using-watson-machine-learning
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
 * Under `Notebook URL` provide the following url: https://raw.githubusercontent.com/IBM/prediction-using-watson-machine-learning/master/notebooks/MLpredictor.ipynb
-* Select the Spark runtime with Python 3.5 .
+* Select the Spark runtime with Python 3.5.
 * Click the `Create` button.
 
   ![create Spark notebook](doc/source/images/create-spark-notebook.png)
@@ -134,7 +134,7 @@ $ cd prediction-using-watson-machine-learning
 
 * Enter your DB2 Warehouse credentials in the cell after `2.1 Load the training data from Db2 Warehouse on Cloud`.
 
-* Enter your Watson Machine Learning credentials in the cell after `Action: Enter your Watson Machine Learning service instance credentials here.` .
+* Enter your Watson Machine Learning credentials in the cell after `Action: Enter your Watson Machine Learning service instance credentials here.`.
 
 * Move your cursor to each code cell and run the code in it. Read the comments for each cell to understand what the code is doing. **Important** when the code in a cell is still running, the label to the left changes to **In [\*]**:.
   Do **not** continue to the next cell until the code is finished running.

@@ -1,8 +1,10 @@
-# This Code has been deprecated, and is in Maintenance mode Only! There will be no future updates.
+# WARNING: This repository is no longer maintained :warning:
 
-> **DISCLAIMER**: This notebook is used for demonstrative and illustrative purposes only and does not constitute an offering that has gone through regulatory review. It is not intended to serve as a medical application. There is no representation as to the accuracy of the output of this application and it is presented without warranty.
+> This repository will not be updated. The repository will be kept available in read-only mode. Refer to https://github.com/IBM/monitor-wml-model-with-watson-openscale for a similar example.
 
 # Prediction Using Watson Machine Learning
+
+> **DISCLAIMER**: This notebook is used for demonstrative and illustrative purposes only and does not constitute an offering that has gone through regulatory review. It is not intended to serve as a medical application. There is no representation as to the accuracy of the output of this application and it is presented without warranty.
 
 In this Code Pattern, we will use anonymous patient data to predict the best drug to treat heart disease. This notebook introduces commands for getting data, model persistance to Watson Machine Learning repository, model deployment, and scoring.
 
